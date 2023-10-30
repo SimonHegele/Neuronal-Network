@@ -2,7 +2,7 @@ from math import exp
 
 class Step_function():
 
-    def __init__(self, threshold: float):
+    def __init__(self, threshold=0):
 
         self.threshold = threshold
 
